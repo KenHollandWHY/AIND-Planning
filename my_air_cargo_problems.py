@@ -12,6 +12,7 @@ from my_planning_graph import PlanningGraph
 
 class AirCargoProblem(Problem):
     def __init__(self, cargos, planes, airports, initial: FluentState, goal: list):
+        # find out why : FluentState, goal: list is written that way while the other list inputs are not. 
         """
 
         :param cargos: list of str
